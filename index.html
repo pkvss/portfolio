@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Add your meta description" />
+    <!-- meta tag below is used for Internet Explorer and mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--This means that the browser will (probably) render the width of the page at the width of its own screen. //-->
+    <title>Vasileios Papakostas Portfolio</title>
+    <!-- add your stylesheet and any other styling code, e.g. google fonts  a good link is https://fonts.google.com/-->
+	
+	<link rel="stylesheet" href="css/layout.css" /> 
+</head>
+
+<!-- all the classes below will require some CSS styles to be included in your layout.css file, if you do not
+include a style for these classes you should remove the class from your html file //-->
+<body>
+
+<!--REMOVE ANY CLASS OBJECT WHICH YOU DO NOT USE TO STYLE YOUR FILE//-->
+
+    <main class= "main-style">
+	 <header class="page-header">  <!-- What does the header do? Replace this comment with a brief explanation.  see nav above-->
+            <div class="header-content">  <!-- Groups together HTML elements to make stlying more efficiently-->
+                <h1>Vasileios Papakostas</h1>
+                <p>Welcome to my portfolio</p>
+            </div>
+        </header>
+	    <!-- You could style Main here if you wish-->
+        <nav class="page-nav"> <!-- the navigation part of the page.  Note links just jump to different parts of the page.-->
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#images">Image Gallery</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+       
+    <!--Note here the use of an ID.  the link above actually links to this.  It's a good example of where an ID can be used.  Note also that the section has a class attribute.  use this for styling. -->
+        <section id="about" class="about-me container">  <!--The section provides detail about the individual, intrests and information -->
+            <div class="container-content">
+                <h2>About Me</h2>
+                <div class="content">
+                <p>Hello my name is Vasileios Papakostas I am a DCU student studying computer science and business.<br> 
+                    I am 18 years old from Greece and have been living in Ireland for the past 8 years.<br>
+                   I attended Oatlands college for 6 years. I am intrested in tech, business, computing and coding.<br>
+                  I am looking forward to bring my skills, reliability and enthusiasm to new opportunities<br>
+                  I am also passionate about learning, teamwork, and contributing to positive experiences in any setting.</p>
+                     <!-- add your 150 word maximum About Me content here.  Use HTML you know, marks for the HTML.  Marks deducted for poor grammar, spelling errors etc. -->
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work-experience container">
+            <div class="container-content">
+                <h2>Work Experience</h2>
+                <div class="content">
+                    <ul>
+                        <li><strong>Starbucks:</strong> I worked at starbucks and gained experience in customer service amd creating coffee under stress. I was rensponsible for being a cashier and ensuring teamwork is taking place.</li>
+                        <li><strong>Caretaker at St. Louis High School:</strong>Responsible for maintaining and cleaning the school, ensuring safety protocols were followed, and assisting with daily school operations.</li>
+                        <li><strong>Dunnes Sales</strong>Rensponsible for persuing customers to purchase items and to aid them in any question. I gained marketing and sales skills through this.</li>
+                    </ul> <!-- add your 200 word maximum work experience content here.  You can use lists of things as well as paragraphs.  Show off the HTML you know.  marks for the HTML, and how well you use it. marks deducted for poor grammar or spelling errors-->
+                </div>
+            </div>
+        </section>
+				<br><br>
+
+        <section id="images" class="image-gallery container">
+		
+            <div class="container-content">
+                <h2>Image Gallery</h2>
+                <div class="content">
+				
+<figure class="an-image">
+  <img src= "images/photo-1543633550-f431af584afd.avif" alt ="Basketball"  width="270" height="270"> <!-- add image one here with 150 word maximum caption.  You may remove the caption if you wish.  Don't forget to use alt tags. -->
+     <figcaption class="image caption"> This is my favourite hobby basketball which I have been playing since i was a kid </figcaption>
+</figure>                   
+
+<figure class="an-image">
+    <img src= "images/photo-1515879218367-8466d910aaa4.avif" alt ="Basketball"  width="270" height="270"> <!-- add image one here with 150 word maximum caption.  You may remove the caption if you wish.  Don't forget to use alt tags. -->
+    <figcaption class="image-caption"> I love technology it is a big part of my life and love researching for new and intreseting tech. </figcaption>
+</figure> 
+
+<figure class="an-image">
+    <img src= "images/premium_photo-1661964068107-6d7f6f4fea51.avif" alt ="Acropolis" width="270" height="270"> <!-- add image one here with 150 word maximum caption.  You may remove the caption if you wish.  Don't forget to use alt tags. -->
+   <figcaption class="image-caption"> This picture symbolises my home country . It is the acropolis a famous building in athens which I have visited many times</figcaption>
+</figure> 
+				
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-me container">
+            <div class="container-content">
+                <h2>Contact Me</h2>
+                <div class="content">
+                    <form action="https://formspree.io/[your email address goes here]" method="post">
+	                    <!-- Style this nicely.  Don't worry if the form doesn't work, marks here for how well you style it. -->
+                        <p>
+                            <label for="contact-name">Your Name</label>
+                            <input id="contact-name" type="text" name="contact-name" />
+                        </p>
+                        <p>
+                            <label for="contact-email">Your email address</label>
+                            <input id="contact-email" type="email" name="contact-email" /> </p>
+                        <p>
+                            <label for="contact-phone">Your phone number</label>
+                            <input id="contact-phone" type="tel" name="contact-phone" /> </p>
+                        <p>
+                            <label for="contact-message">Your message</label>
+                            <textarea id="contact-message" name="contact-message" rows="5"> </textarea>
+                        </p>
+                        <p>
+                            <p>
+                                <input type="submit" value="send my message" /> </p>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <footer id = "footer-layout">
+                  <p> &copy; <a href="dcu.ie/">DCU 2023-2024</a>
+                    <span class="footer-separator">&middot;</span>
+                    <span class="footer-text">Vasileios Papakostas</span> 
+                    <span class="footer-separator">&middot;</span> 
+				<span class="footer-text">This is student coursework</span> 
+				<span class="footer-separator">&middot;</span>
+				<span class="footer-text">Lecturer:<a href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span> 
+				<span class="footer-separator">&middot;</span> 
+				<span class="footer-text"><a href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a><br/></span> 
+			</p>
+        <!-- Note that the link to the validator above will only produce results when your page is uploaded to the server, and you click on the link from the browser.-->
+         
+        </footer>
+    </main>
+</body>
+
+</html>

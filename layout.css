@@ -1,0 +1,145 @@
+/* Dark Theme */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p, span, div, a {
+    color: #fff;
+}
+
+.main-style {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+}
+
+/* Navigation Styles */
+.page-nav {
+    background-color: #111;
+    padding: 10px 0;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.page-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.page-nav li {
+    margin: 0 15px;
+}
+
+.page-nav a {
+    color: #00aaff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+/* Contact Me Section Styling */
+.contact-me {
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.contact-me label {
+    display: block;
+    font-weight: bold;
+    color: #ff0000;
+    margin-bottom: 5px;
+}
+
+.contact-me input[type="text"],
+.contact-me input[type="email"],
+.contact-me input[type="tel"],
+.contact-me textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.contact-me input[type="submit"] {
+    background-color: #ff0000;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+
+}
+
+/* Image Gallery Section */
+.image-gallery {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.image-gallery h2 {
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.an-image {
+    display: inline-block;
+    margin: 10px;
+}
+
+.an-image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ff0000;
+}
+
+.image-caption {       
+    padding: 10px;         
+    text-align: center;           
+}
+
+/* w3 school for reference code...*/
+
+
+
+/* These are some suggested groupings for your stylesheet... */
+
+
+/* box sizing */
+
+
+/* element styling (e.g. standard p, h1, h2, a, etc) */
+
+
+/* flexible content images code */
+
+
+/* navigation styles */
+
+
+/* page header styles*/
+
+
+/* main layout */
+
+
+
+
+/* styling for the section content */
+
+
+/* background colours for sections */
+
+
+/* form styling */
+
+
+/* footer styling */
+
